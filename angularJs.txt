@@ -62,12 +62,67 @@ function main(){
                 console.log('greet');
                 }
 
-inner functions
+inner functions :  quality : they can access outer function variables parameters.
 
 closure means inner functions
 
+scopes : 
+1. local
+2. global scopes // any variable inside scripts tag in global
+3. public scope(objects)
+
+angular.module -- here angular is a global variable
+//module pattern was introduced -- which says use only one global variable in one application throught.
+				
+function can be assigned to a variable and that variable can be called as function
+
+var employee = new Employee()
+object				
 				
 				
+how to access object properties:
+1. .(dot) operators notation
+2. [] square bracket notation
+
+reference.property = getter/setter
+
 				
-				
+Object augmentation
+-------------------
+object can be expanded
+
+in javascript inheritance is achieved at runtime..
+parent/SUPREME object is the "proto OBJECT"	-- this we can see in console.dir(employee);
+
+default values in js:
+---------------------
+var id = empid || 0;
+
+how to return a literal
+-------------------------
+function get Customer(){
+
+car customer = {id:100,
+name:'mayank'};
+
+//return customer
+//or
+return {
+id:100,
+name:'mayank'
+;}
+
+}
+
+--------------------------------------Angular------------------------------------
+used to develope MVC application
+its a SPA framework -  a single page should have navigation to all other pages
+reusable objects in microsoft terminology is a component
+Beans - in java world are reusable objects
+Entity - persistent objects
+
+
+
+
+
 				
