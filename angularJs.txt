@@ -1,5 +1,9 @@
 Angular JS 
 ----------
+
+13th july 2016
+--------------
+
 now html will be developed on client side - not the server side(unlike jsp servlet technologies)
 
 jsfiddle.net
@@ -29,13 +33,41 @@ RequireJS is a JavaScript file and module loader
 
 how listeners work in java : using observer patterns
 
- function main(){
-    console.log('Hello this is log');
- }
+function main(){
+                console.log('Hello this is log');
+            }
 
 Javascript callbacks 
+>> Can we return a function from another function ? YES, bcz each function is a literal
+>> A function can be assigned to a variable (var sum = function(){ asdasdasdsdas })
 
+----------------------------------------------------------------------------------------------------------------------
 
+14th july 2016
+---------------
 
+1.async in java is asynchronous operations | javascript is asynchronous because of browser.
+2.Logs is sync or async ?? its sync
 
+//stack queue heap in javascript
+function main(){
+                //sync
+                console.log('1');
+                console.log('2');
+                //async
+                setTimeout(function(){
+                    console.log('Latter execution'); // this will go and wait in queue
+                },1000);
+                console.log('welcome');
+                console.log('greet');
+                }
 
+inner functions
+
+closure means inner functions
+
+				
+				
+				
+				
+				
