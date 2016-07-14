@@ -121,7 +121,7 @@ reusable objects in microsoft terminology is a component
 Beans - in java world are reusable objects
 Entity - persistent objects
 
-
+In angular : we have components and wrap things into one of the component called as module
 
 
 
