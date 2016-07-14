@@ -30,7 +30,12 @@ RequireJS is a JavaScript file and module loader
 how listeners work in java : using observer patterns
 
  function main(){
-                console.log('Hello this is log');
-            }
+    console.log('Hello this is log');
+ }
+
+Javascript callbacks 
+
+
+
 
 
