@@ -1,0 +1,36 @@
+Angular JS 
+----------
+now html will be developed on client side - not the server side(unlike jsp servlet technologies)
+
+jsfiddle.net
+
+javascript- 
+------------
+1.language basics
+2.functions
+3.00
+4.DOM
+
+module loaders
+
+How angular works: because of HTML5 philosophy
+how to make custome HTML tags
+
+Q.what is the difference between writing scripts in head and body tags.
+A.
+1.browser has html compiler and html parser
+2.css parser
+3.javascript engine
+
+everything we write becomes a node : like a tree nodes
+<meta> tags are only for information
+
+RequireJS is a JavaScript file and module loader
+
+how listeners work in java : using observer patterns
+
+ function main(){
+                console.log('Hello this is log');
+            }
+
+
