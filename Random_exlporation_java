@@ -1,0 +1,6 @@
+New Stopwatch API in springs:
+
+StopWatch watch = new StopWatch();
+watch.start();
+watch.stop();
+watch.getTotalTimeMillis();
