@@ -2,3 +2,4 @@ Here we will see ways to secure a RESTFUL WebService:
 
 1.> https://jersey.java.net/documentation/latest/security.html
 
+2.> http://stackoverflow.com/questions/26777083/best-practice-for-rest-token-based-authentication-with-jax-rs-and-jersey
