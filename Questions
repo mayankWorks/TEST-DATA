@@ -1,3 +1,4 @@
+RANDOM:
 1.message resource handling for i18n etc
 2.REST standards ?
 3.Why string is immutable ?
@@ -5,17 +6,28 @@
 5.how linkedlist works ?
 6.What happens inside Wrapper classes, why used?
 7.when and how to choose what to use interface or 
+8.abstract classes?
+9.diff b/w conc HM and normal HM
+10.can we use strings in switch case : yes from java 8
+11.any utilities of Collections class(sort) : sort(arraylist), etc ?
+12.how to refer to springs config file from other 
 
-abstract classes?
-8.why we use static 
+STATIC:
+1.why we use static ?
+2.can we make class as static
+3.how do we make a class static
 
+ACCESS SPECIFIERS:
+1.what is the scope
+2.can a class be protected/private?
 
-can we make class as static
-how do we make a class static
-how to syncrz a map explicitly
-about memory management
-can a class be protected?
-diff b/w conc HM and normal HM
-can we use strings in switch case
-any utilities of Collections class(sort)
-how to refer to springs config file from other 
+MEMORY MANAGEMENT:
+1.about memory management?
+2.How JVM works?
+
+Synchronization:
+1.how to syncrz a map explicitly ?
+
+EXCEPTION HANDLING:
+1.How to make custom exception?
+2.Read about throwing exception the parent Exception classes
