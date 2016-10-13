@@ -1,4 +1,5 @@
 Constructor Chaining:
+---------------------
 The this() constructor call can be used to invoke the current class constructor (constructor chaining). 
 This approach is better if you have many constructors in the class and want to reuse that constructor.
 The this() constructor call should be used to reuse the constructor in the constructor.
@@ -32,3 +33,57 @@ Output:
        default constructor is invoked
        111 Karan
        222 Aryan
+
+
+Equals Method : how it works ?
+------------------------------
+class Complex {
+ 
+    private double re, im;
+ 
+    public Complex(double re, double im) {
+        this.re = re;
+        this.im = im;
+    }
+ 
+    // Overriding equals() to compare two Complex objects
+    @Override
+    public boolean equals(Object o) {
+ 
+        // If the object is compared with itself then return true  
+        if (o == this) {
+            return true;
+        }
+ 
+        /* Check if o is an instance of Complex or not
+          "null instanceof [type]" also returns false */
+        if (!(o instanceof Complex)) {
+            return false;
+        }
+         
+        // typecast o to Complex so that we can compare data members 
+        Complex c = (Complex) o;
+         
+        // Compare the data members and return accordingly 
+        return Double.compare(re, c.re) == 0
+                && Double.compare(im, c.im) == 0;   // here we are comparing each element of the class, 
+                                                    // but this may not be sufficient, thats why we need to override 
+                                                    // hascode method as well .
+    }
+}
+ 
+// Driver class to test the Complex class
+public class Main {
+ 
+    public static void main(String[] args) {
+        Complex c1 = new Complex(10, 15);
+        Complex c2 = new Complex(10, 15);
+        if (c1.equals(c2)) {
+            System.out.println("Equal ");
+        } else {
+            System.out.println("Not Equal ");
+        }
+    }
+}
+
+Output: Equal
