@@ -36,3 +36,18 @@ HOT TOPICS:
 1.Spring(Full explanation)
 2.Hibernate(Full explanation)
 3.REST(Full explanation)
+
+Important concepts:
+-------------------
+Java class loaders?
+JVM memory management?
+String,StringBuffer,StringBuilder?
+Exceptions? http://www.journaldev.com/2167/java-exception-interview-questions-and-answers
+Hibernate , mappings?
+Springs?
+JPA
+Collections ?
+Java 8 (Stream,Lamda,Optional)?
+Multithreading ?
+Java Generics ? http://www.journaldev.com/1663/java-generics-example-method-class-interface
+
