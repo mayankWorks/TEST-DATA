@@ -189,3 +189,26 @@ as well as static methods and also static block. Classes can also be made static
 Java allows us to define a class within another class. Such a class is called a nested class.
 The class which enclosed nested class is known as Outer class. In java, we can’t make Top level class static.
 Only nested classes can be static.
+
+ACCESS MODIFIERS:
+----------------
+The four access levels are −
+1.Visible to the package, the default. No modifiers are needed.
+2.Visible to the class only (private).
+3.Visible to the world (public).
+4.Visible to the package and all subclasses (protected).
+
+Can a CLASS be PRIVATE ?
+------------------------
+Answer: Yes, only the inner class can be private
+
+we can declare java class as private . But tat class wont b accesslible from its outer scope like
+public class B{
+// member variables and methods
+private class C{
+// member variables and methods
+}
+}
+now the prob wid dis is only the members of class B can access dis class C
+and by OOP design, we want more reusability of code which cant b possble in dis case
+//NOTE : We can use private,protected,static,default only with inner class not with the outer class.
