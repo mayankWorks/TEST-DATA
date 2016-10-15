@@ -220,3 +220,9 @@ private class C{
 now the prob wid dis is only the members of class B can access dis class C
 and by OOP design, we want more reusability of code which cant b possble in dis case
 //NOTE : We can use private,protected,static,default only with inner class not with the outer class.
+
+HASHMAPs internal working
+http://javahungry.blogspot.com/2013/08/hashing-how-hash-map-works-in-java-or.html
+
+Concurrent Hash Map
+http://javahungry.blogspot.com/2014/02/hashmap-vs-concurrenthashmap-java-collections-interview-question.html
