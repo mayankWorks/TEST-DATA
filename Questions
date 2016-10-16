@@ -32,6 +32,20 @@ EXCEPTION HANDLING:
 1.How to make custom exception?
 2.Read about throwing exception the parent Exception classes
 
+SINGLETON:
+1.what is singleton?
+2.How to achieve it in normal class and how to achieve it in springs?
+
+SERIALIZATION:
+1.what is it?
+2.How to achieve it?
+3.why do we serialize?
+
+COLLECTIONS:
+1.Set/Map internal working?
+2.Hashcode() and equals() method?
+3.LinkedList ?
+
 HOT TOPICS:
 1.Spring(Full explanation)
 2.Hibernate(Full explanation)
@@ -51,3 +65,7 @@ Java 8 (Stream,Lamda,Optional)?
 Multithreading ?
 Java Generics ? http://www.journaldev.com/1663/java-generics-example-method-class-interface
 
+SPRINGS:
+1.Bean scopes in springs ?
+2.Default bean scope and how ?
+3.How to implement multiple data sources in springs ?
